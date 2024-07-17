@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
 
 body{
     font-family: "Roboto", sans-serif;
@@ -11,17 +12,35 @@ body{
     padding: 0;
 }
 /* semibold=500 
-extrabold=900*/
+extrabold=900
+font-18px=1.12rem*/
 
 .container{
-    max-width: 1450px;
+    max-width: 1040px;
     margin: 0 auto;
+    margin-bottom: 20px;
     border: 2px solid green;
+}
+.uni-pad{
+    padding: 0px 190px;
+}
+.uni-p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-primary{
+    background-color: #E6533C;
+    border: none;
+    color: white;
+    border-radius: 42px;
+    padding: 16px 46px;
+    font-size: 1.12rem;
+    font-weight: 500;
 }
 .nav-bar{
     display: flex;
     justify-content: space-between;
-    padding: 70px 190px;
+    padding: 20px 190px;
     align-items: center;
 }
 .ham-burger{
@@ -54,4 +73,84 @@ extrabold=900*/
     color: #E6533C;
     font-weight: 900;
     font-size: 3.25rem;
+}
+.banner{
+    display: flex;
+    /* gap: 40px; */
+}
+.banner-left{
+    display: grid;
+    align-content: center;
+    width: 50%;
+}
+.banner-span{
+    font-family: "Aguafina Script", cursive;
+    font-weight: 200;
+}
+.banner-title{
+    font-size: 4.8rem;
+    margin-bottom: 28px;
+}
+.banner-btn{
+    margin-top: 28px;
+}
+.btn-sec{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    border-radius: 42px;
+    padding: 16px 46px;
+    font-size: 1.12rem;
+    font-weight: 500;
+    margin-left: 14px;
+}
+.banner-right{
+    width: 50%;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+.banner-right-img{
+    position: relative;
+    width: 50%;
+    /* padding-left: 90px; */
+}
+.free-workout-videos{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    /* width: 50%; */
+    border-radius: 12px;
+    padding: 10px;
+    position: absolute;
+    top: 28%;
+    right: 29%;
+    /* right: 10%; */
+    /* filter: blur(2px); */
+}
+.free-workout-videos h2{
+    font-size: 2.5rem;
+    margin-bottom: 2px;
+}
+.video-tutorial{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    /* width: 50%; */
+    border-radius: 12px;
+    padding: 10px;
+    position: absolute;
+    top: 60%;
+    right: 40%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.video-tutorial h2{
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: #E6533C;
+    border-radius: 50%;
 }

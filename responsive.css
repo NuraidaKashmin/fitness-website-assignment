@@ -12,6 +12,45 @@ large device above 993px*/
     justify-content:space-between;
     padding: 20px;
 }
+.banner{
+    flex-direction: column;
+    padding: 0px 10px;
+}
+.banner-left{
+    width: 100%;
+}
+.banner-right{
+    width: 100%;
+}
+.banner-right-img{
+    /* text-align: center; */
+    width: 100%;
+}
+.free-workout-videos{
+    top: 75%;
+    right: 9%;
+}
+.video-tutorial{
+    top: 98%;
+    left: 20%;
+    width: 25%;
+    /* align-content: center; */
+}
+.banner-btn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.hidden{
+    display: none;
+}
+
+
+
+
+
+
+
 
 
 }
