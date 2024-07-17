@@ -1,0 +1,17 @@
+/* small device upto 576px
+large device above 993px*/
+@media screen and (max-width:576px) {
+    .ham-burger{
+        display: block;
+        font-size: 2rem;
+}
+.nav-items{
+    display: none;
+}
+.nav-bar{
+    justify-content:space-between;
+    padding: 20px;
+}
+
+
+}
