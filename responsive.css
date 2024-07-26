@@ -16,25 +16,22 @@ large device above 993px*/
     flex-direction: column;
     padding: 0px 10px;
 }
+.banner-title{
+    font-size: 3.5rem;
+}
 .banner-left{
     width: 100%;
 }
-.banner-right{
-    width: 100%;
-}
 .banner-right-img{
-    /* text-align: center; */
-    width: 100%;
+    text-align: center;
 }
 .free-workout-videos{
-    top: 75%;
-    right: 9%;
+    top: 10%;
+    right: 5%;
 }
 .video-tutorial{
-    top: 98%;
-    left: 20%;
-    width: 25%;
-    /* align-content: center; */
+    top: 50%;
+    left: 10%;
 }
 .banner-btn{
     text-align: center;
@@ -44,6 +41,28 @@ large device above 993px*/
 .hidden{
     display: none;
 }
+.habits-boxes{
+    grid-template-columns: repeat(1, 1fr);
+}
+.habits{
+    padding: 0px 10px;
+}
+.main-run-extra{
+    padding: 0px 10px;
+}
+.run-extra{
+    flex-direction: column;
+    padding: 30px 30px;
+    align-items: center;
+}
+.run-extra-img-content{
+    padding: 0px 15px;
+}
+.run-extra img{
+    transform: scale(1);
+    object-fit: cover;
+}
+
 
 
 
