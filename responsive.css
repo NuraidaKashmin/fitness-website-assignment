@@ -1,4 +1,4 @@
-/* small device upto 576px
+/* small device up to 576px
 large device above 993px*/
 @media screen and (max-width:576px) {
     .ham-burger{
@@ -17,11 +17,18 @@ large device above 993px*/
     padding: 0px 10px;
 }
 .banner-title{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     line-height: 120%;
+    width: 100%;
+}
+.banner-span{
+    font-size: 2.5rem;
 }
 .banner-left{
     width: 100%;
+}
+.res-p{
+    width: 70%;
 }
 .banner-right-img{
     text-align: center;
@@ -39,6 +46,12 @@ large device above 993px*/
     display: flex;
     justify-content: center;
 }
+.btn-sec{
+    padding: 10px 35px;
+}
+.btn-primary{
+    padding: 10px 35px;
+}
 .hidden{
     display: none;
 }
@@ -50,30 +63,33 @@ large device above 993px*/
 }
 .main-run-extra{
     padding: 0px 10px;
+    margin-bottom: 30px;
 }
 .run-extra{
     flex-direction: column;
     padding: 30px 30px;
     align-items: center;
+    gap: 10px;
 }
-.run-extra-img-content{
-    padding: 0px 15px;
+.run-extra-img{
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 .run-extra img{
-    transform: scale(1);
-    object-fit: cover;
+    transform: scale(1.2);
+    width: 100%;
+    height: auto;
 }
 .meet-team-container{
     padding: 0px 10px;
 }
 .meet-team-people{
-    /* grid-template-rows: repeat(4, 1fr); */
     grid-template-columns: repeat(1, 1fr);
 }
 .meet-team-people img{
     height: auto;
     filter: brightness(90%);
-    /* transform: scale(1.1); */
 }
 .person-2{
     order: 1S;
@@ -86,6 +102,7 @@ large device above 993px*/
 }
 .person-3{
     order: 3;
+    border-radius: 15px;
 }
 .person-6{
     order: 4;
@@ -96,16 +113,25 @@ large device above 993px*/
     justify-items: start;
     gap: 20px;
 }
-.footer{
-    padding: 0px 10px;
+.footer-main-container{
+    padding: 0px 20px;
 }
-
-
-
-
-
-
-
-
-
+.footer-text{
+    text-align: left;
+}
+.bmi-calculator{
+    flex-direction: column;
+    padding: 52px 20px;
+    gap: 42px;
+}
+.bmi-title{
+    padding: 0px 10px;
+    margin-bottom: 30px;
+}
+.bmi-title div{
+    padding-left: 10px;
+}
+.bmi-input input{
+    width: 88%;
+}
 }
